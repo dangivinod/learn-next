@@ -1,7 +1,3 @@
-import { useState } from "react"
-
 export default function Home() {
-  const [count, setCount] = useState(0)
-
-  return <div>Showing total count : {count} </div>
+  return <div>hello Next js</div>
 }
