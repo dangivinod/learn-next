@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <>
       <div>Showing total count : {count} </div>
-      <button onClick={() => setCount(count + 1)}>Add Count</button>
+      <button onClick={() => setCount(count + 1)}>+ Count</button>
+      <button onClick={() => setCount(count - 1)}>- Count</button>
     </>
   )
 }
