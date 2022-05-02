@@ -5,6 +5,8 @@ export default function Home() {
 
   return (
     <>
+      <p>line first</p>
+
       <button onClick={() => setCount(count + 1)}>+ Count</button>
       <button onClick={() => setCount(count - 1)}>- Count</button>
     </>
